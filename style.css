@@ -1,0 +1,245 @@
+body
+{
+  background-image: url(back4.png);
+  background-size: cover;  
+}
+#navbarNav1{
+  flex-direction: row-reverse;
+}
+/* .navbar navbar-expand-lg bg-body-tertiary{
+  background-color: black;
+  color: white;
+  font-style: italic;
+} */
+.content1{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.279);
+  background-size: cover;
+  margin-left: 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+}
+h2{
+  height: 10px;
+  text-align: center;
+  text-shadow: 1px,1px,1px;
+  font-style: italic;
+}
+h3{
+  height: 10px;
+  text-align: center;
+  font-style: italic;
+  
+}
+#intro{
+  margin-top: 50px;
+}
+#profile{
+  margin-left: 600px;
+  margin-top: -180px;
+  
+}
+img{
+  width: 180px;
+  height: 220px;
+  border-radius: 10px;
+}
+#send{
+  background-color: aqua;
+  width: 80px;
+  height: 40px;
+  color: white;
+  border-color: aqua;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#content2{
+  width: 500px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.178)) url(back3.webp);
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: 5px;
+
+}
+.nav-link:hover
+{
+  color: blue;
+}
+#skill{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.279);
+  background-size: cover;
+  margin-left: 500px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+}
+#skill1
+{
+  margin-left: 550px;
+  margin-top: -180px;
+}
+#content4{
+  width: 500px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.178)) url(back3.webp);
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: 5px;
+
+}
+#content5{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.279);
+  background-size: cover;
+  margin-left: 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+}
+#content6{
+  width: 500px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.178)) url(back3.webp);
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: 5px;
+
+}
+#content7{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.279);
+  background-size: cover;
+  margin-left: 500px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+}
+#content8{
+  width: 500px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.178)) url(back3.webp);
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: 5px;
+
+}
+#content9{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.279);
+  background-size: cover;
+  margin-left: 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+}
+#content10{
+  width: 500px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.178)) url(back3.webp);
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: 5px;
+
+}
+#content11{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.279);
+  background-size: cover;
+  margin-left: 500px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+}
+#content12{
+  width: 500px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.178)) url(back3.webp);
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: 5px;
+
+}
+#form
+{
+  margin-left: 40px;
+  margin-top: -100px;
+}
+input{
+  width: 220px;
+}
+#icons-phone
+{   display:flex;
+    justify-content:space-between;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#facebook,#instagram,#whatsapp,#linkdin{
+    font-size:30px;
+    margin-left:30px;
+    align-items: center;
+    padding-top:12px;
+    padding-bottom:15px;
+    padding-right:3px;
+    padding-left:3px;
+    transition-property:all;
+    transition-duration: 0.5s;
+}
+#facebook:hover,#instagram:hover,#whatsapp:hover,#linkdin:hover{
+    background-color:whitesmoke;
+    color:rgba(0, 128, 255, 0.552);
+}
+
+
+
+.navbar-nav::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: #ff5733;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: right;
+}
+
+.navbar-nav:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+p{
+  text-align: center;
+  font-style: italic;
+  font-size: medium;
+}
+p:hover{
+  color: blue
+}
+h2:hover,h3:hover{
+  color: aquamarine;
+}
+.nav-link:hover{
+  color: #ff5733;
+}
+img:hover{
+  transform: scale(1.2);
+}
+ #Home:hover{
+  background-color: rgb(0, 255, 4);
+} 
+
+.my-link:hover{
+  background-color: blueviolet;
+  color: #ff5733;
+} 
